@@ -1,0 +1,66 @@
+/*config univesal*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background: #fff url(../img/fundo.png)repeat-x; 
+}
+
+/* centralização principal*/
+#principal {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/*paragrafos, links, titulos, listas*/
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/*menu horizontal*/
+#menu-horizontal {
+    height: 150px;
+    background: url(../img/detalhe-topo.png) no-repeat center right;
+    padding-top: 25px;
+}
+
+#menu-horizontal ul {
+    background: #b10033;
+    margin-top: 30px;
+    float: left;
+}
+
+#menu-horizontal ul li {
+    float: left;
+}
+
+#menu-horizontal ul li a {
+    display: block;
+    padding: 0.5em 1.3em;
+    line-height: 2.1em;
+    font-size: 1em;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+    background: url(../img/divisor.png)no-repeat left;
+}
+
+#menu-horizontal ul li .primeiro {
+    background: none;
+}
+
+
+/*Logo*/
+.logo {
+    height: 66px;
+    width: 152px;
+    background: url(../img/logo.png);
+    text-indent: -30000px;
+}
