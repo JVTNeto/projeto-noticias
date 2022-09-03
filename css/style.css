@@ -61,12 +61,12 @@ ul {
 }
 
 body.home #menu-horizontal a#home,
-body.brasil #menu-horizontal a#brasil,
-body.internacional #menu-horizontal a#internacional,
-body.economia #menu-horizontal a#economia,
-body.saude #menu-horizontal a#saude,
-body.ciencia #menu-horizontal a#ciencia,
-body.fotos #menu-horizontal a#fotos{
+body.home #menu-horizontal a#brasil,
+body.home #menu-horizontal a#internacional,
+body.home #menu-horizontal a#economia,
+body.home #menu-horizontal a#saude,
+body.home #menu-horizontal a#ciencia,
+body.home #menu-horizontal a#fotos{
     background: #de003e;
     color: #fff;
     cursor: text;
