@@ -41,7 +41,7 @@ ul {
     float: left;
 }
 
-#menu-horizontal ul li a {
+#menu-horizontal ul a {
     display: block;
     padding: 0.5em 1.3em;
     line-height: 2.1em;
@@ -52,8 +52,24 @@ ul {
     background: url(../img/divisor.png)no-repeat left;
 }
 
-#menu-horizontal ul li .primeiro {
+#menu-horizontal ul .primeiro a{
     background: none;
+}
+
+#menu-horizontal ul a:hover {
+    color: #69001d;
+}
+
+body.home #menu-horizontal a#home,
+body.brasil #menu-horizontal a#brasil,
+body.internacional #menu-horizontal a#internacional,
+body.economia #menu-horizontal a#economia,
+body.saude #menu-horizontal a#saude,
+body.ciencia #menu-horizontal a#ciencia,
+body.fotos #menu-horizontal a#fotos{
+    background: #de003e;
+    color: #fff;
+    cursor: text;
 }
 
 
